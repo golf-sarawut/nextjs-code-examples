@@ -8,12 +8,6 @@ export default function ContactForm() {
     message: "",
   });
 
-  const [isLoad, setIsLoad] = useState(false);
-
-  useEffect(() => {
-    setIsLoad(true);
-  }, []);
-
   const handleChange = (
     e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>
   ) => {
