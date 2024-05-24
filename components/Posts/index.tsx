@@ -7,7 +7,10 @@ interface Post {
 }
 
 export async function Posts() {
+  
   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+
   const posts: Post[] = await response.json();
 
   return (
