@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "8379:6379"
+    volumes:
+      - redis-data:/data
+
+  webdis:
+    image: anapsix/webdis
+    ports:
+      - "7379:7379"
+    depends_on:
+      - redis
+    environment:
+      REDIS_SERVER: redis
+      REDIS_PORT: 6379
+
+volumes:
+  redis-data:
