@@ -4,6 +4,12 @@
  * By running docker compose up
  * This will expose the Webdis API on port 7379
  * And open http rest api on port 7379
+ * 
+ * You can see result after submitting the form by visiting this url
+ * http://localhost:7379/GET/{KEY}
+ * 
+ * For example, if you submit key as "name" and value as "John Doe"
+ * You can see the result by visiting http://localhost:7379/GET/name
  */
 export default function Page() {
 
