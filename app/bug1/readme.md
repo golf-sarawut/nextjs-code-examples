@@ -9,6 +9,6 @@
 
 ## Challenges
 
-1. Fix this bug ==without== adding any new state.
+1. Fix this bug `without` adding any new state.
 2. Can you explain the root cause behind this bug?
 3. Please explain how your solution works.
