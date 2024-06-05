@@ -1,6 +1,4 @@
-# Fix Bug
-
-## The Bug
+# Bug hunting
 
 1. Give any rating to Product B.
 2. Delete Product B.
