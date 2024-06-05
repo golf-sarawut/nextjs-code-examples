@@ -8,8 +8,9 @@ export const ProductRating: React.FC<ProductRatingProps> = ({ onRate }) => {
   return (
     <select
       defaultValue=""
-      className="ml-4 p-2 border rounded text-black"
+      className="ml-4 p-2 border rounded text-black invalid:text-gray-400"
       onChange={(e) => onRate(e.target.value)}
+      required
     >
       <option value="" disabled>
         Please rate this product
