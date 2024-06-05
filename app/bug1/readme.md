@@ -6,8 +6,8 @@
 2. Delete Product B.
 3. The rating you gave to Product B appears in the row for Product C.
 
-<img src="image.png" width="300"/>
-<img src="image-1.png" width="300"/>
+<img src="image.png" width="500"/>
+<img src="image-1.png" width="500"/>
 
 ## Challenges
 
