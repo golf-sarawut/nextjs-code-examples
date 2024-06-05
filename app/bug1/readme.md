@@ -1,14 +1,11 @@
-# Fix Bug
-
-## The Bug
+# A React bug hunting challenge
 
 1. Give any rating to Product B.
 2. Delete Product B.
 3. The rating you gave to Product B appears in the row for Product C.
 
-![Screenshot showing rating given to Product B | width=300](image.png)
-
-![Screenshot after deleting Product B | width=300](image-1.png)
+<img src="image.png" width="500"/>
+<img src="image-1.png" width="500"/>
 
 ## Challenges
 
