@@ -1,4 +1,4 @@
-# A React bug fixing challenge
+# ReactJS Bug-Fixing Challenge
 
 1. Give any rating to Product B.
 2. Delete Product B.
