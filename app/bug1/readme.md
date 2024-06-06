@@ -1,4 +1,6 @@
-# ReactJS Bug-Fixing Challenge
+# ReactJS bug-fixing challenge
+
+# How to reproduce the bug
 
 1. Give any rating to Product B.
 2. Delete Product B.
