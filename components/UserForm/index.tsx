@@ -26,9 +26,9 @@ const UserForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 max-w-full w-[400px]">
+    <form onSubmit={handleSubmit(onSubmit)}  className="max-w-md mx-auto mt-10 max-w-full w-[400px]">
       <h1 className="text-2xl font-bold mb-5">User Form</h1>
-      <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+      <fieldset className="space-y-4">
         <div>
           <label className="block text-sm font-medium text-gray-400">Name</label>
           <input
@@ -65,8 +65,8 @@ const UserForm: React.FC = () => {
         >
           Submit
         </button>
-      </form>
-    </div>
+      </fieldset>
+    </form>
   );
 };
 
