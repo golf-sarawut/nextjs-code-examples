@@ -6,10 +6,11 @@ type OtherComponentRef = ElementRef<typeof OtherComponent>;
 
 export const Component = () => {
   const ref = useRef<OtherComponentRef>(null);
-  const divRef = useRef<ElementRef<"div">>(null);
+  const articleRef = useRef<ElementRef<"article">>(null);
 
   return <OtherComponent ref={ref}>
-    Hello
-    <div ref={divRef}>World</div>
+    <article ref={articleRef}>
+        Hello
+    </article>
   </OtherComponent>;
 };
